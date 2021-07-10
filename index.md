@@ -6,7 +6,7 @@
 I have trained an actor-critic agent with a [Proximal policy optimization algorithm](https://arxiv.org/pdf/1707.06347.pdf) to play the Atari 2600 game Space Invaders using the reinforcement learning library [TF-Agents](https://www.tensorflow.org/agents). Using the [OpenAI Gym environment](https://gym.openai.com/envs/SpaceInvaders-ram-v0/),  the agent has been trained using as input the RAM of the Atari machine consisting of (only!) 128 bytes. In this environment what the agent "sees" is not the rendered image showing the space ships, projectiles and shields but just a sequence of 128 integer numbers corresponding to the RAM containing the stored information that represents the game state. The agent learns to consistently dodge projectiles and is able to complete the first level of the game.
 
 <p align="center">
-<img src="./Notebooks/Space_Invaders_episode.gif" alt="An episode played by the agent"> <br>
+<img src="./Notebooks/Space_Invaders_episode.gif" alt="An episode played by the agent" width="240" height="336"> <br>
 An episode played by the trained agent
 </p>
 
