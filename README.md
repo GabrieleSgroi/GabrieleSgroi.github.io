@@ -22,6 +22,14 @@ A high reward episode played by the trained agent
 
 [![Jupyter](https://img.shields.io/badge/Jupiter-View%20Notebook-orange?&logo=Jupyter)](https://nbviewer.jupyter.org/github/GabrieleSgroi/GabrieleSgroi.github.io/blob/main/Notebooks/Pacman_Categorical_DQN.ipynb)
 
+## Deep learning projects: Unsupervised learning
+
+### Hierarchical Vector Quantized Variational Autoencoder for image generation (VQ-VAE)
+I have implemented a custom architecture of a hierarchical vector quantized variational autoencoder (VQ-VAE) following the concept introduced in the paper [Generating Diverse High-Fidelity Images with VQ-VAE-2](https://arxiv.org/pdf/1906.00446.pdf) togheter with custom implementations of the PixelCNN priors introduced in the paper [Conditional Image Generation with PixelCNN Decoders](https://arxiv.org/pdf/1606.05328.pdf). The architectures of the models were customized in order to retain good performance on large resolution (512x512) images while remaining light enough to train on free Kaggle/Colab TPUs and GPUs. The model has been trained on the image data of the Kaggle competition [Humpback Whale Identification](https://www.kaggle.com/c/humpback-whale-identification) as this dataset offered a reasonable number of high resolution images. 
+
+[![GitHub](https://img.shields.io/badge/Github-View%20on%20GitHub-blue?&logo=github)](https://github.com/GabrieleSgroi/hierarchical-VQ-VAE)
+[![Colab](https://img.shields.io/badge/Colab-View%20example%20notebook-blue?&logo=googlecolab)](https://colab.research.google.com/drive/1zLrX5q5zKA6dCbOWpepagYSYLzDNbc9v?usp=sharing)
+
 ## Deep learning projects: Supervised learning 
 ### Vehicle motion prediction with 3d CNN 
 I have trained a 3d convolutional neural network to predict the future trajectories of vehicles as an entry for the [Lyft Motion Prediction for Autonomous Vehicles](https://www.kaggle.com/c/lyft-motion-prediction-autonomous-vehicles) competition on Kaggle. The model takes as input few frames of bird's-eye view images containing the visual representation of all the vehicles in the scene and, through intermediate layers including also 3d convolutions (1 temporal+ 2 spatial dimensions), predicts 3 possible future trajectories for the target vehicle and associate a probability to each of them. The model easily outperforms the baseline benchmark set by the competition after being trained on approximately 10% of the training set. 
