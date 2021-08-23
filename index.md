@@ -4,7 +4,7 @@
 [Natural language processing projects](#NLP) <br>
 [Deep learning projects: Unsupervised learning](#unsupervised)<br>
 [Deep learning projects: Supervised learning](#supervised)<br>
-
+***
 ## Reinforcement learning projects <a name="RL"></a>
 ***
 ### Playing Space Invaders with an actor-critic PPO algorithm
