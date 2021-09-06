@@ -33,7 +33,7 @@ An episode played by the trained agent
 ### News category classification fine-tuning RoBERTa
 I have fine-tuned a pre-trained [RoBERTa](https://arxiv.org/abs/1907.11692) model using the [trasformer library from Hugging Face](https://huggingface.co/transformers/) on Google Colab TPU to predict the category of news from the headline and a short description. The model has been fine tuned on the [News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset) containing 200k news headlines from the year 2012 to 2018 taken from HuffPost.
 
-[![Jupyter](https://img.shields.io/badge/Jupiter-View%20Notebook-orange?&logo=Jupyter)](https://nbviewer.jupyter.org/url/GabrieleSgroi.github.io/Notebooks/News_classification_with_RoBERTa.ipynb)
+[![Jupyter](https://img.shields.io/badge/Jupiter-View%20Notebook-orange?&logo=Jupyter)](https://nbviewer.jupyter.org/github/GabrieleSgroi/GabrieleSgroi.github.io/blob/main/Notebooks/News_classification_with_RoBERTa.ipynb)
 ***
 
 ## Deep learning projects: Unsupervised learning <a name="unsupervised"></a>
