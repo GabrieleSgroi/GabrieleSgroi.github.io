@@ -1,7 +1,7 @@
 
 # Portfolio
 [Reinforcement learning projects](#RL) <br>
-[Natural language processing projects](#NLP) <br>
+[Natural Language Processing projects](#NLP) <br>
 [Deep learning projects: Unsupervised learning](#unsupervised)<br>
 [Deep learning projects: Supervised learning](#supervised)<br>
 ***
@@ -28,7 +28,7 @@ An episode played by the trained agent
 
 [![Jupyter](https://img.shields.io/badge/Jupiter-View%20Notebook-orange?&logo=Jupyter)](https://nbviewer.jupyter.org/github/GabrieleSgroi/GabrieleSgroi.github.io/blob/main/Notebooks/Pacman_Categorical_DQN.ipynb)
 ***
-## Natural language processing projects <a name="NLP"></a>
+## Natural Language Processing projects <a name="NLP"></a>
 ***
 ### News category classification fine-tuning RoBERTa
 I have fine-tuned a pre-trained [RoBERTa](https://arxiv.org/abs/1907.11692) model using the [trasformer library from Hugging Face](https://huggingface.co/transformers/) on Google Colab TPU to predict the category of news from the headline and a short description. The model has been fine tuned on the [News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset) containing 200k news headlines from the year 2012 to 2018 taken from HuffPost.  </br>
